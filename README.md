@@ -9,7 +9,7 @@ $ sudo apt install docker-compose
 In case you don't have pip installed, open the terminal and run:
 $ sudo apt-get -y install python3-pip
 
-Make sure everything is working fine by running each code separately. 
+Make sure everything's working fine by running each code separately. 
 First of all, run the code you're using to train the model (the one which also has the predict function).
 Run application.py (our API Rest) using the following commands:
 $ FLASK_APP=application.py
@@ -19,7 +19,7 @@ $ flask run
 Now, if everything's working you can run(also, don't forget to do this in your project's folder):
 $ docker-compose up
 
-If you get a "permission denied" message: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket
+In case you get a "permission denied" message: https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket 
 
 If everything works fine you'll a message like this(after running docker-compose up): 
 "Starting ..........
